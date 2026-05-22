@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel Tejada | Consultoria Fitness Individualizada</title>
+    <meta
+      name="description"
+      content="Consultoria fitness individualizada — treino e dieta estudados caso a caso. Atendimento pessoal, sem robô e sem copia e cola."
+    />
+
+    <!-- ==========================================================
+     COMO EDITAR ESTA PÁGINA (leia antes de publicar):
+     1. Troque os textos entre [colchetes] pelos dados reais.
+     2. O WhatsApp ja esta configurado: 55 45 99978-4790.
+        Se o link nao abrir a conversa certa, confira o numero no codigo.
+     3. Troque "SEU_INSTAGRAM", "SEU_TIKTOK", "SEU_CANAL" pelos @ reais.
+        Se ele não tiver alguma rede, é só apagar aquele botão.
+     4. FOTOS: salve na pasta assets/images/ dois arquivos:
+        - "academia.jpg" = imagem de academia (aparece no banner do topo).
+        - "gabriel.jpg"  = foto do Gabriel (aparece na seção "Sobre").
+     5. FOTOS DE RESULTADO: nos cards da seção Resultados, troque cada
+        <span>...</span> dentro de .depo-foto por:
+        <img src="assets/images/resultado1.jpg" alt="Antes e depois do aluno">
+        (use resultado1.jpg, resultado2.jpg, resultado3.jpg na mesma pasta).
+     6. Para mudar as cores, edite as variáveis no bloco :root em assets/css/style.css.
+     Os preços já estão atualizados com a promoção de 20% OFF.
+     ========================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- ================= NAVBAR ================= -->
+    <header>
+      <div class="promo-bar">
+        🔥 PROMOÇÃO ATIVA — 20% OFF nos planos de 3 meses ou mais · por tempo
+        limitado
+      </div>
+      <nav>
+        <div class="logo">Gabriel Tejada<span class="destaque">.</span></div>
+        <div class="nav-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#planos">Planos</a>
+          <a href="#redes">Redes</a>
+        </div>
+        <a href="https://wa.me/5545999784790" class="btn btn-primario nav-cta"
+          >Falar agora</a
+        >
+      </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-conteudo">
+          <div class="selo"><span class="ponto"></span> Matrículas abertas</div>
+          <h1>
+            Consultoria fitness <span class="destaque">individualizada</span> de
+            verdade
+          </h1>
+          <p class="sub">
+            Treino e dieta estudados caso a caso, conforme o seu objetivo, sua
+            rotina e suas limitações. Nada de copia e cola — atendimento direto
+            comigo, sem robô e sem terceiros.
+          </p>
+          <div class="hero-botoes">
+            <a href="https://wa.me/5545999784790" class="btn btn-primario"
+              >Quero minha consultoria</a
+            >
+            <a href="#planos" class="btn btn-secundario"
+              >Ver planos e valores</a
+            >
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="num">100%</div>
+              <div class="lbl">Protocolos individualizados</div>
+            </div>
+            <div>
+              <div class="num">Até 72h</div>
+              <div class="lbl">Para entrega dos protocolos</div>
+            </div>
+            <div>
+              <div class="num">Sem robô</div>
+              <div class="lbl">Eu mesmo atendo, um por um</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE ================= -->
+    <section class="sobre" id="sobre">
+      <div class="wrap sobre-grid">
+        <div>
+          <h2>Prazer, sou o <span class="destaque">Gabriel Tejada</span></h2>
+          <p>
+            Sou coach fitness e atendo cada aluno pessoalmente — sem robô, sem
+            equipe respondendo por mim e sem protocolo pronto. Cada caso é
+            estudado do zero.
+          </p>
+          <p>
+            Eu pergunto sobre tudo: seu objetivo, sua rotina, suas limitações,
+            suas condições de saúde, até o tênis que você usa pra treinar. É
+            esse nível de detalhe que faz o resultado acontecer.
+          </p>
+          <p>
+            Desconfie de quem entrega tudo em minutos: o famoso copia e cola. Eu
+            reservo horas para estudar cada aluno — por isso o prazo de até 72h.
+          </p>
+        </div>
+        <div class="sobre-foto">
+          <img
+            src="assets/images/Gabriel.png"
+            alt="Gabriel Tejada"
+            class="foto-real foto-gabriel"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VÍDEO ================= -->
+    <section class="video-secao" id="video">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Conheça o método</span>
+          <h2>Assista antes de decidir</h2>
+          <p>
+            Em poucos minutos, o Gabriel explica como funciona a consultoria e o
+            que você pode esperar.
+          </p>
+        </div>
+        <div class="video-wrap">
+          <!-- Troque SEU_VIDEO_ID pelo ID do vídeo do YouTube (parte final da URL após ?v=) -->
+          <iframe
+            src="https://www.youtube.com/embed/ldSzSaWN_do"
+            title="Gabriel Tejada — Consultoria Fitness Individualizada"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= COMO FUNCIONA ================= -->
+    <section id="como-funciona">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Como funciona</span>
+          <h2>Simples, do início ao protocolo</h2>
+          <p>Quatro passos para começar sua consultoria. Tudo pelo WhatsApp.</p>
+        </div>
+        <div class="passos">
+          <div class="passo">
+            <div class="n">1</div>
+            <h3>Escolha seus serviços</h3>
+            <p>
+              Você define quais serviços quer e se prefere com ou sem
+              acompanhamento.
+            </p>
+          </div>
+          <div class="passo">
+            <div class="n">2</div>
+            <h3>Faça o Pix</h3>
+            <p>
+              Envie o comprovante pelo WhatsApp e confirme os serviços
+              escolhidos.
+            </p>
+          </div>
+          <div class="passo">
+            <div class="n">3</div>
+            <h3>Responda o questionário</h3>
+            <p>
+              Você recebe as boas-vindas e os questionários para eu conhecer seu
+              caso a fundo.
+            </p>
+          </div>
+          <div class="passo">
+            <div class="n">4</div>
+            <h3>Receba seus protocolos</h3>
+            <p>
+              Em até 72h após a sua última resposta, tudo pronto e
+              individualizado pra você.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVIÇOS ================= -->
+    <section class="servicos" id="servicos">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Serviços</span>
+          <h2>Treino e dieta do jeito certo</h2>
+          <p>A base de uma transformação real, montada sob medida pra você.</p>
+        </div>
+        <div class="servicos-grid">
+          <div class="card">
+            <div class="ico">🏋️</div>
+            <h3>Treino de musculação</h3>
+            <p>
+              Treinos periodizados em PDF, montados a partir dos seus pontos
+              fortes e fracos, das suas possibilidades, limitações e do seu
+              objetivo. Nada genérico.
+            </p>
+          </div>
+          <div class="card">
+            <div class="ico">🍎</div>
+            <h3>Dieta + suplementação</h3>
+            <p>
+              Dieta calculada conforme as suas necessidades, de forma
+              explicativa e clara: calorias, quantidades e o porquê de cada
+              escolha. Você entende o que está fazendo.
+            </p>
+          </div>
+          <div class="card">
+            <div class="ico">🤝</div>
+            <h3>Acompanhamento</h3>
+            <p>
+              Contato comigo pelo WhatsApp sempre que precisar, sem limite de
+              perguntas, e avaliações a cada 15 dias com fotos e relato pessoal.
+            </p>
+          </div>
+          <div class="card">
+            <div class="ico">🔞</div>
+            <h3>Ciclo &amp; Peptídeos <span class="tag-idade">18+</span></h3>
+            <p>
+              Serviços disponíveis exclusivamente para maiores de 18 anos. A
+              orientação é apresentada de forma individual durante a
+              consultoria, conforme o seu caso.
+            </p>
+          </div>
+        </div>
+        <p class="nota-servicos">
+          Os planos podem incluir de 1 a 4 serviços, combinados conforme o seu
+          objetivo. Tudo é definido e individualizado no atendimento.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= ACOMPANHAMENTO ================= -->
+    <section id="acompanhamento">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Com ou sem acompanhamento</span>
+          <h2>Qual é a diferença?</h2>
+          <p>
+            Você escolhe — mas, pela pequena diferença de preço, o
+            acompanhamento costuma valer muito a pena.
+          </p>
+        </div>
+        <div class="comp-grid">
+          <div class="comp simples">
+            <span class="selo-plano">Sem acompanhamento</span>
+            <h3>Protocolo entregue</h3>
+            <ul>
+              <li>
+                <span class="mk">›</span>
+                <span>Você recebe o que contratou, individualizado</span>
+              </li>
+              <li>
+                <span class="mk">›</span>
+                <span>O contato se encerra após a entrega</span>
+              </li>
+              <li>
+                <span class="mk">›</span> <span>Sem avaliações periódicas</span>
+              </li>
+              <li>
+                <span class="mk">›</span>
+                <span>Ideal para quem já tem autonomia</span>
+              </li>
+            </ul>
+          </div>
+          <div class="comp destaque-plano">
+            <span class="selo-plano">Com acompanhamento ⭐</span>
+            <h3>Eu te acompanho de perto</h3>
+            <ul>
+              <li>
+                <span class="mk">✓</span>
+                <span
+                  ><b>Contato comigo no WhatsApp</b> sempre que precisar, sem
+                  limite de perguntas</span
+                >
+              </li>
+              <li>
+                <span class="mk">✓</span>
+                <span
+                  ><b>Respostas em até 72h</b> desde a sua última mensagem
+                  (normalmente bem antes)</span
+                >
+              </li>
+              <li>
+                <span class="mk">✓</span>
+                <span
+                  ><b>Avaliações a cada 15 dias</b> com fotos e relato
+                  pessoal</span
+                >
+              </li>
+              <li>
+                <span class="mk">✓</span>
+                <span
+                  >Ajustes ao longo do caminho para o resultado acontecer</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PLANOS E PREÇOS ================= -->
+    <section class="precos" id="planos">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Planos e valores</span>
+          <h2>Escolha o plano ideal pra você</h2>
+          <p>
+            Planos a partir de R$70. Promoção de 20% OFF nos planos de 3 meses
+            ou mais.
+          </p>
+        </div>
+
+        <!-- COM ACOMPANHAMENTO -->
+        <h3 class="precos-titulo">
+          🔥 Com acompanhamento
+          <span class="destaque">— 20% OFF nos planos acima de 1 mês</span>
+        </h3>
+        <div class="tabela-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Duração</th>
+                <th>1 serviço</th>
+                <th>2 serviços</th>
+                <th>3 serviços</th>
+                <th>4 serviços</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="dur">1 mês</td>
+                <td><span class="preco-novo">R$169</span></td>
+                <td><span class="preco-novo">R$179</span></td>
+                <td><span class="preco-novo">R$200</span></td>
+                <td><span class="preco-novo">R$249</span></td>
+              </tr>
+              <tr>
+                <td class="dur">3 meses</td>
+                <td>
+                  <span class="preco-velho">R$279</span
+                  ><span class="preco-novo">R$223</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$319</span
+                  ><span class="preco-novo">R$255</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$429</span
+                  ><span class="preco-novo">R$343</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$499</span
+                  ><span class="preco-novo">R$399</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="dur">6 meses</td>
+                <td>
+                  <span class="preco-velho">R$347</span
+                  ><span class="preco-novo">R$277</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$389</span
+                  ><span class="preco-novo">R$311</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$639</span
+                  ><span class="preco-novo">R$511</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$749</span
+                  ><span class="preco-novo">R$599</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="dur">1 ano</td>
+                <td>
+                  <span class="preco-velho">R$539</span
+                  ><span class="preco-novo">R$431</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$649</span
+                  ><span class="preco-novo">R$519</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$849</span
+                  ><span class="preco-novo">R$679</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$1097</span
+                  ><span class="preco-novo">R$877</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="dur">2 anos</td>
+                <td>
+                  <span class="preco-velho">R$984</span
+                  ><span class="preco-novo">R$787</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$1163</span
+                  ><span class="preco-novo">R$930</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$1497</span
+                  ><span class="preco-novo">R$1197</span>
+                </td>
+                <td>
+                  <span class="preco-velho">R$1797</span
+                  ><span class="preco-novo">R$1437</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- SEM ACOMPANHAMENTO + EXTRAS -->
+        <div class="precos-extra">
+          <div class="mini-card">
+            <h4>Sem acompanhamento</h4>
+            <div class="linha"><span>1 serviço</span><b>R$70</b></div>
+            <div class="linha"><span>2 serviços</span><b>R$90</b></div>
+            <div class="linha"><span>3 serviços</span><b>R$100</b></div>
+            <div class="linha"><span>4 serviços</span><b>R$114</b></div>
+            <div class="linha linha-nota">Pagamento único · sem avaliações</div>
+          </div>
+          <div class="mini-card premium">
+            <h4>💎 Plano Premium</h4>
+            <div class="big">R$1499</div>
+            <div class="linha"><span>4 serviços (anual)</span></div>
+            <div class="linha"><span>+ 1h de vídeo chamada</span></div>
+            <div class="linha linha-nota">O pacote mais completo</div>
+          </div>
+          <div class="mini-card">
+            <h4>🤳 Vídeo chamada</h4>
+            <div class="linha"><span>20 min</span><b>R$360</b></div>
+            <div class="linha"><span>60 min</span><b>R$700</b></div>
+            <div class="linha">
+              <span>Apenas chamada · 20 min</span><b>R$400</b>
+            </div>
+            <div class="linha">
+              <span>Apenas chamada · 60 min</span><b>R$800</b>
+            </div>
+          </div>
+        </div>
+
+        <!-- RESPOSTAS EM 24H -->
+        <div class="precos-extra-2col">
+          <div class="mini-card">
+            <h4>
+              ⚡ Plano respostas em 24h <span class="destaque">— 20% OFF</span>
+            </h4>
+            <div class="linha"><span>1 mês</span><b>R$449</b></div>
+            <div class="linha">
+              <span>3 meses</span><b><s class="preco-s">R$997</s> R$797</b>
+            </div>
+            <div class="linha">
+              <span>6 meses</span><b><s class="preco-s">R$1597</s> R$1277</b>
+            </div>
+            <div class="linha">
+              <span>1 ano</span><b><s class="preco-s">R$2697</s> R$2157</b>
+            </div>
+          </div>
+          <div class="mini-card">
+            <h4>🩺 Plano com médico</h4>
+            <div class="linha"><span>Bimestral</span><b>R$790</b></div>
+            <div class="linha linha-nota">
+              Não entra na promoção de 20% OFF.
+            </div>
+          </div>
+        </div>
+
+        <p class="precos-nota">
+          Promoção válida por tempo limitado. Não entram na promoção: planos
+          mensais (1 mês), planos sem acompanhamento, plano bimestral com
+          médico, Plano Premium e vídeo chamadas. A contagem do plano começa
+          apenas quando os protocolos são iniciados.
+        </p>
+
+        <div class="cta-wrap">
+          <a href="https://wa.me/5545999784790" class="btn btn-primario"
+            >Garantir meu plano no WhatsApp</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DEPOIMENTOS ================= -->
+    <section id="depoimentos">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Resultados</span>
+          <h2>O que os alunos dizem</h2>
+          <p>
+            Substitua pelos depoimentos e prints reais de alunos (com
+            autorização).
+          </p>
+        </div>
+        <div class="depo-grid">
+          <div class="depo-card">
+            <div class="depo-foto">
+              <span>[ Foto antes / depois<br />do aluno ]</span>
+            </div>
+            <div class="estrelas">★★★★★</div>
+            <p>
+              "[Depoimento real do aluno aqui — o que mudou, em quanto tempo,
+              como foi o acompanhamento.]"
+            </p>
+            <div class="depo-pessoa">
+              <div class="avatar"></div>
+              <div>
+                <div class="nome">[Nome do aluno]</div>
+                <div class="meta">Aluno desde [ano]</div>
+              </div>
+            </div>
+          </div>
+          <div class="depo-card">
+            <div class="depo-foto">
+              <span>[ Foto antes / depois<br />do aluno ]</span>
+            </div>
+            <div class="estrelas">★★★★★</div>
+            <p>
+              "[Depoimento real do aluno aqui — destaque a individualização e o
+              suporte.]"
+            </p>
+            <div class="depo-pessoa">
+              <div class="avatar"></div>
+              <div>
+                <div class="nome">[Nome do aluno]</div>
+                <div class="meta">Aluna desde [ano]</div>
+              </div>
+            </div>
+          </div>
+          <div class="depo-card">
+            <div class="depo-foto">
+              <span>[ Foto antes / depois<br />do aluno ]</span>
+            </div>
+            <div class="estrelas">★★★★★</div>
+            <p>
+              "[Depoimento real do aluno aqui — fale do atendimento pessoal, sem
+              robô.]"
+            </p>
+            <div class="depo-pessoa">
+              <div class="avatar"></div>
+              <div>
+                <div class="nome">[Nome do aluno]</div>
+                <div class="meta">Aluno desde [ano]</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REDES SOCIAIS ================= -->
+    <section class="redes" id="redes">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Acompanhe</span>
+          <h2>Me siga nas redes</h2>
+          <p>
+            Conteúdo de treino, dieta e bastidores. Acompanhe de perto e bora
+            pro time.
+          </p>
+        </div>
+        <div class="redes-botoes">
+          <a href="https://www.instagram.com/gabrieltejada_ofc/" class="rede" target="_blank" rel="noopener">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+          <a href="https://www.tiktok.com/@tejada_ofc" class="rede" target="_blank" rel="noopener">
+            <i class="fa-brands fa-tiktok"></i> TikTok
+          </a>
+          <a href="https://www.youtube.com/@GabrielTejadaOFC" class="rede" target="_blank" rel="noopener">
+            <i class="fa-brands fa-youtube"></i> YouTube
+          </a>
+          <a href="https://t.me/+OJR5g0AvkYIzMzEx" class="rede" target="_blank" rel="noopener">
+            <i class="fa-brands fa-telegram"></i> Telegram
+          </a>
+          <a href="https://chat.whatsapp.com/EVZUz7FN857JBDVYQPVd2Q" class="rede" target="_blank" rel="noopener">
+            <i class="fa-brands fa-whatsapp"></i> Grupo WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA FINAL ================= -->
+    <section class="cta-final">
+      <div class="wrap">
+        <h2>Bora começar a <span class="destaque">sua transformação?</span></h2>
+        <p>
+          Me chama no WhatsApp, tira suas dúvidas e escolha seu plano. Atendo
+          por ordem de chegada — é só enviar a mensagem e aguardar.
+        </p>
+        <a href="https://wa.me/5545999784790" class="btn btn-primario"
+          >Falar com o Gabriel Tejada</a
+        >
+      </div>
+    </section>
+
+    <!-- ================= RODAPÉ ================= -->
+    <footer>
+      <div class="logo">Gabriel Tejada<span class="destaque">.</span></div>
+      <p>Consultoria fitness individualizada · Atendimento online</p>
+      <div class="footer-redes">
+        <a href="https://www.instagram.com/gabrieltejada_ofc/" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@tejada_ofc" aria-label="TikTok" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.youtube.com/@GabrielTejadaOFC" aria-label="YouTube" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://t.me/+OJR5g0AvkYIzMzEx" aria-label="Telegram" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://chat.whatsapp.com/EVZUz7FN857JBDVYQPVd2Q" aria-label="Grupo WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <p>
+        Serviços de ciclo e peptídeos são voltados exclusivamente a maiores de
+        18 anos.
+      </p>
+      <p>© 2026 Gabriel Tejada. Todos os direitos reservados.</p>
+    </footer>
+
+    <a
+      href="https://wa.me/5545999784790"
+      class="wpp-flutuante"
+      aria-label="WhatsApp"
+      >💬</a
+    >
+  </body>
+</html>

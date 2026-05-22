@@ -1,0 +1,5 @@
+Salve nesta pasta os arquivos de imagem:
+
+  academia.jpg  → foto de academia (banner do topo / hero)
+  gabriel.jpg   → foto do Gabriel (seção Sobre)
+  resultado1.jpg, resultado2.jpg, resultado3.jpg → fotos de antes/depois (seção Depoimentos)
