@@ -8,6 +8,59 @@
       name="description"
       content="Consultoria fitness individualizada — treino e dieta estudados caso a caso. Atendimento pessoal, sem robô e sem copia e cola."
     />
+    <!-- Open Graph — atualiza og:url e og:image com a URL final do site após publicar -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Gabriel Tejada | Consultoria Fitness Individualizada"
+    />
+    <meta
+      property="og:description"
+      content="Treino e dieta estudados caso a caso, conforme o seu objetivo e rotina. Atendimento direto, sem robô. Planos a partir de R$70."
+    />
+    <meta property="og:image" content="assets/images/Gabriel.png" />
+    <meta property="og:url" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Gabriel Tejada | Consultoria Fitness Individualizada"
+    />
+    <meta
+      name="twitter:description"
+      content="Treino e dieta estudados caso a caso. Atendimento direto, sem robô. Planos a partir de R$70."
+    />
+    <meta name="twitter:image" content="assets/images/Gabriel.png" />
+    <!-- Preencha o href abaixo com a URL final do domínio após publicar -->
+    <link rel="canonical" href="" />
+    <meta name="theme-color" content="#0d0f12" />
+    <!-- Fallback: garante que o conteúdo aparece mesmo sem JavaScript -->
+    <noscript>
+      <style>.fade-in { opacity: 1 !important; transform: none !important; }</style>
+    </noscript>
+    <!-- Schema.org — atualiza "url" com o domínio final após publicar -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Gabriel Tejada",
+      "jobTitle": "Coach Fitness",
+      "description": "Consultoria fitness individualizada — treino e dieta estudados caso a caso. Atendimento pessoal, sem robô e sem copia e cola.",
+      "url": "",
+      "image": "assets/images/Gabriel.png",
+      "sameAs": [
+        "https://www.instagram.com/gabrieltejada_ofc/",
+        "https://www.youtube.com/@GabrielTejadaOFC",
+        "https://www.tiktok.com/@tejada_ofc",
+        "https://t.me/+OJR5g0AvkYIzMzEx"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+5545999784790",
+        "availableLanguage": "Portuguese"
+      }
+    }
+    </script>
 
     <!-- ==========================================================
      COMO EDITAR ESTA PÁGINA (leia antes de publicar):
@@ -33,7 +86,17 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    /></noscript>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
@@ -50,8 +113,17 @@
           <a href="#como-funciona">Como funciona</a>
           <a href="#servicos">Serviços</a>
           <a href="#planos">Planos</a>
+          <a href="#faq">FAQ</a>
           <a href="#redes">Redes</a>
         </div>
+        <button
+          type="button"
+          class="hamburger"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
         <a href="https://wa.me/5545999784790" class="btn btn-primario nav-cta"
           >Falar agora</a
         >
@@ -98,6 +170,74 @@
       </div>
     </section>
 
+    <!-- ================= DOR ================= -->
+    <section class="dor">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Você se identifica?</span>
+          <h2>Por que a maioria não vê resultado</h2>
+          <p>
+            Se alguma dessas situações parece familiar, você está no lugar
+            certo.
+          </p>
+        </div>
+        <div class="dor-grid">
+          <div class="dor-card">
+            <div class="dor-ico">😤</div>
+            <p>
+              <b>Treinou meses e não viu resultado.</b> Você foi consistente,
+              mas o espelho não mudou — e você não sabe o que está errado.
+            </p>
+          </div>
+          <div class="dor-card">
+            <div class="dor-ico">📋</div>
+            <p>
+              <b>Pagou coach e recebeu planilha genérica.</b> O mesmo treino que
+              manda pra todo mundo, sem te conhecer, sem perguntar nada.
+            </p>
+          </div>
+          <div class="dor-card">
+            <div class="dor-ico">🤯</div>
+            <p>
+              <b>Informação demais, resultado de menos.</b> Instagram diz uma
+              coisa, YouTube diz outra — você não sabe em quem acreditar.
+            </p>
+          </div>
+          <div class="dor-card">
+            <div class="dor-ico">🍽️</div>
+            <p>
+              <b>Tentou várias dietas e nenhuma colou.</b> Restritiva demais,
+              sem explicação, sem encaixar na sua rotina real.
+            </p>
+          </div>
+          <div class="dor-card">
+            <div class="dor-ico">🤕</div>
+            <p>
+              <b>Treinou com dor e medo de se machucar.</b> Ninguém considerou
+              suas limitações físicas na hora de montar o protocolo.
+            </p>
+          </div>
+          <div class="dor-card">
+            <div class="dor-ico">👻</div>
+            <p>
+              <b>Seu coach sumiu depois do pagamento.</b> Dificuldade pra
+              responder, sem suporte, você ficou sozinho com a planilha na mão.
+            </p>
+          </div>
+        </div>
+        <div class="dor-virada">
+          <p>
+            É exatamente aí que a consultoria do Gabriel faz a diferença —
+            <span>cada caso estudado do zero</span>, com você sendo atendido
+            diretamente por ele, não por uma planilha de copia e cola.
+          </p>
+          <a href="https://wa.me/5545999784790" class="btn btn-primario dor-cta-btn">
+            Quero resolver isso agora
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- ================= SOBRE ================= -->
     <section class="sobre" id="sobre">
       <div class="wrap sobre-grid">
@@ -117,12 +257,30 @@
             Desconfie de quem entrega tudo em minutos: o famoso copia e cola. Eu
             reservo horas para estudar cada aluno — por isso o prazo de até 72h.
           </p>
+          <!-- Atualize os números abaixo com os dados reais do Gabriel -->
+          <div class="sobre-stats">
+            <div class="sobre-stat">
+              <div class="num">200+</div>
+              <div class="lbl">Alunos atendidos</div>
+            </div>
+            <div class="sobre-stat">
+              <div class="num">3+</div>
+              <div class="lbl">Anos de experiência</div>
+            </div>
+            <div class="sobre-stat">
+              <div class="num">100%</div>
+              <div class="lbl">Atendimento online</div>
+            </div>
+          </div>
         </div>
         <div class="sobre-foto">
           <img
             src="assets/images/Gabriel.png"
             alt="Gabriel Tejada"
             class="foto-real foto-gabriel"
+            width="600"
+            height="600"
+            loading="lazy"
           />
         </div>
       </div>
@@ -381,8 +539,10 @@
                   ><span class="preco-novo">R$399</span>
                 </td>
               </tr>
-              <tr>
-                <td class="dur">6 meses</td>
+              <tr class="tr-popular">
+                <td class="dur">
+                  6 meses <span class="badge-popular">Mais escolhido</span>
+                </td>
                 <td>
                   <span class="preco-velho">R$347</span
                   ><span class="preco-novo">R$277</span>
@@ -514,7 +674,8 @@
     </section>
 
     <!-- ================= DEPOIMENTOS ================= -->
-    <section id="depoimentos">
+    <!-- Seção oculta até ter depoimentos reais — remova o atributo "hidden" quando estiver pronto -->
+    <section id="depoimentos" hidden>
       <div class="wrap">
         <div class="sec-titulo">
           <span class="tag">Resultados</span>
@@ -580,6 +741,85 @@
       </div>
     </section>
 
+    <!-- ================= FAQ ================= -->
+    <section class="faq" id="faq">
+      <div class="wrap">
+        <div class="sec-titulo">
+          <span class="tag">Dúvidas frequentes</span>
+          <h2>Perguntas e respostas</h2>
+          <p>
+            Tire suas dúvidas antes de contratar. Qualquer coisa além disso, me
+            chama no WhatsApp.
+          </p>
+        </div>
+        <div class="faq-lista">
+          <details>
+            <summary>Como funciona o pagamento?</summary>
+            <p class="faq-resp">
+              Tudo via Pix. Após você escolher os serviços, envio os dados de
+              pagamento pelo WhatsApp. Confirmado o comprovante, você já recebe
+              as boas-vindas e o questionário para começar.
+            </p>
+          </details>
+
+          <details>
+            <summary>Em quanto tempo recebo o protocolo?</summary>
+            <p class="faq-resp">
+              Em até 72h após a sua última resposta ao questionário. Esse prazo
+              existe porque cada protocolo é estudado individualmente — sem
+              copia e cola. Na prática, costuma ser bem antes disso.
+            </p>
+          </details>
+
+          <details>
+            <summary>Posso treinar em casa, sem academia?</summary>
+            <p class="faq-resp">
+              Sim. Os treinos são montados conforme o equipamento que você tem
+              disponível — academia completa, espaço em casa ou somente o peso
+              do próprio corpo. Isso é justamente parte do questionário inicial.
+            </p>
+          </details>
+
+          <details>
+            <summary>Qual a diferença entre com e sem acompanhamento?</summary>
+            <p class="faq-resp">
+              Sem acompanhamento você recebe o protocolo e o contato encerra
+              após a entrega. Com acompanhamento, você tem acesso direto a mim
+              pelo WhatsApp para dúvidas sem limite de perguntas, além de
+              avaliações a cada 15 dias para ajustar o que for necessário.
+            </p>
+          </details>
+
+          <details>
+            <summary>Preciso ter experiência na academia?</summary>
+            <p class="faq-resp">
+              Não. Os protocolos são adaptados ao seu nível — iniciante,
+              intermediário ou avançado. Tudo é explicado de forma clara,
+              inclusive o porquê de cada exercício e de cada escolha alimentar.
+            </p>
+          </details>
+
+          <details>
+            <summary>Tem garantia de devolução do dinheiro?</summary>
+            <p class="faq-resp">
+              Devido à natureza do serviço (entrega de protocolo personalizado),
+              não há reembolso após a entrega. Se tiver qualquer dúvida antes de
+              contratar, me chame no WhatsApp — respondo tudo antes do
+              pagamento.
+            </p>
+          </details>
+
+          <details>
+            <summary>Posso acrescentar serviços depois de contratar?</summary>
+            <p class="faq-resp">
+              Sim. Entre em contato pelo WhatsApp e combinamos o acréscimo
+              conforme o seu plano atual.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- ================= REDES SOCIAIS ================= -->
     <section class="redes" id="redes">
       <div class="wrap">
@@ -592,19 +832,44 @@
           </p>
         </div>
         <div class="redes-botoes">
-          <a href="https://www.instagram.com/gabrieltejada_ofc/" class="rede" target="_blank" rel="noopener">
+          <a
+            href="https://www.instagram.com/gabrieltejada_ofc/"
+            class="rede"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fa-brands fa-instagram"></i> Instagram
           </a>
-          <a href="https://www.tiktok.com/@tejada_ofc" class="rede" target="_blank" rel="noopener">
+          <a
+            href="https://www.tiktok.com/@tejada_ofc"
+            class="rede"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fa-brands fa-tiktok"></i> TikTok
           </a>
-          <a href="https://www.youtube.com/@GabrielTejadaOFC" class="rede" target="_blank" rel="noopener">
+          <a
+            href="https://www.youtube.com/@GabrielTejadaOFC"
+            class="rede"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fa-brands fa-youtube"></i> YouTube
           </a>
-          <a href="https://t.me/+OJR5g0AvkYIzMzEx" class="rede" target="_blank" rel="noopener">
+          <a
+            href="https://t.me/+OJR5g0AvkYIzMzEx"
+            class="rede"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fa-brands fa-telegram"></i> Telegram
           </a>
-          <a href="https://chat.whatsapp.com/EVZUz7FN857JBDVYQPVd2Q" class="rede" target="_blank" rel="noopener">
+          <a
+            href="https://chat.whatsapp.com/EVZUz7FN857JBDVYQPVd2Q"
+            class="rede"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fa-brands fa-whatsapp"></i> Grupo WhatsApp
           </a>
         </div>
@@ -630,11 +895,41 @@
       <div class="logo">Gabriel Tejada<span class="destaque">.</span></div>
       <p>Consultoria fitness individualizada · Atendimento online</p>
       <div class="footer-redes">
-        <a href="https://www.instagram.com/gabrieltejada_ofc/" aria-label="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.tiktok.com/@tejada_ofc" aria-label="TikTok" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
-        <a href="https://www.youtube.com/@GabrielTejadaOFC" aria-label="YouTube" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://t.me/+OJR5g0AvkYIzMzEx" aria-label="Telegram" target="_blank" rel="noopener"><i class="fa-brands fa-telegram"></i></a>
-        <a href="https://chat.whatsapp.com/EVZUz7FN857JBDVYQPVd2Q" aria-label="Grupo WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        <a
+          href="https://www.instagram.com/gabrieltejada_ofc/"
+          aria-label="Instagram"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.tiktok.com/@tejada_ofc"
+          aria-label="TikTok"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-tiktok"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/@GabrielTejadaOFC"
+          aria-label="YouTube"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <a
+          href="https://t.me/+OJR5g0AvkYIzMzEx"
+          aria-label="Telegram"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-telegram"></i
+        ></a>
+        <a
+          href="https://chat.whatsapp.com/EVZUz7FN857JBDVYQPVd2Q"
+          aria-label="Grupo WhatsApp"
+          target="_blank"
+          rel="noopener"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
       </div>
       <p>
         Serviços de ciclo e peptídeos são voltados exclusivamente a maiores de
@@ -647,7 +942,46 @@
       href="https://wa.me/5545999784790"
       class="wpp-flutuante"
       aria-label="WhatsApp"
-      >💬</a
-    >
+      ><i class="fa-brands fa-whatsapp"></i
+    ></a>
+    <script>
+      // Hamburger menu
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      hamburger.addEventListener("click", () => {
+        const aberto = navLinks.classList.toggle("aberto");
+        hamburger.classList.toggle("ativo");
+        hamburger.setAttribute("aria-expanded", aberto);
+      });
+      navLinks.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => {
+          navLinks.classList.remove("aberto");
+          hamburger.classList.remove("ativo");
+          hamburger.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      // Animações de entrada ao scroll
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visivel");
+              observer.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
+      );
+
+      document
+        .querySelectorAll(
+          ".sec-titulo, .passo, .card, .comp, .depo-card, .mini-card, details, .sobre-stat, .video-wrap, .dor-card, .dor-virada",
+        )
+        .forEach((el) => {
+          el.classList.add("fade-in");
+          observer.observe(el);
+        });
+    </script>
   </body>
 </html>
